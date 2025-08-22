@@ -26,6 +26,11 @@ marketing:
     google: ''
     baidu: ''
 
+# 注册自定义样式（新增）
+assets:
+  css:
+    - css/custom.css
+
 # Site header
 header:
   navbar:
