@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Publications
-      text: ''
+      text: 'This Page is under Construction'
       filters:
         folders:
           - publication
