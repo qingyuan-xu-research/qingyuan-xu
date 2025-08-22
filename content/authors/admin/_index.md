@@ -9,16 +9,16 @@ name_pronunciation: Ching-Yoo-an SHYOO
 first_name: Qingyuan
 last_name: Xu
 
-<!-- 
-# Pronouns (optional)
-pronouns: she/her
- -->
 
- <!-- 
+# Pronouns (optional)
+pronouns: 
+
+
+
 # Status emoji
  status:
-  icon: ☕️
- -->
+  icon: 
+
 
 # Is this the primary user of the site?
 superuser: true
@@ -35,9 +35,9 @@ organizations:
     url: https://ioe.engin.umich.edu/
 
 # Social network links
-<!-- 
+
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
---> 
+
 profiles:
   - icon: at-symbol
     url: 'mailto:qyxu@umich.edu'
@@ -69,7 +69,8 @@ education:
   - area: Ph.D. Student in Industrial and Operations Engineering   		
     institution: University of Michigan, Ann Arbor
     date_start: 2024-08
-    date_end: Present
+    date_end: 
+    
 <!--   
 #    summary: |
 #      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
