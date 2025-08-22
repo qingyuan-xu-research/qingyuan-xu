@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2024-08-01
 type: landing
 
 design:
@@ -35,7 +35,7 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: false
+          parallax: true
 #  - block: markdown
 #    content:
 #      title: '📚 My Research'
@@ -79,14 +79,32 @@ sections:
       filters:
         folders:
           - event
+      count: 2
+      sort_by: date
+      sort_ascending: false
     design:
       view: article-grid
       columns: 2
+
+  
+# - block: markdown
+#  id: news
+#  content:
+#    title: Recent News
+#    text: |
+#      -  Presented at the **Midwest Optimization Statistical Learning Conference 2025**
+#      -  New paper on **Contextual DRO with Incomplete Information** submitted to *Operations Research*
+#      -  Invited talk at the **Rising Stars Workshop 2025**
+#  design:
+#    columns: 1
+
+
+
     
 #  - block: collection
-#    id: news
+#    id: blogs
 #    content:
-#      title: Recent News
+#      title: Blogs
 #      subtitle: ''
 #      text: ''
 #      # Page type to display. E.g. post, talk, publication...
