@@ -1,0 +1,11 @@
+/* 让 Education（resume-biography-3）更疏朗 */
+.block.resume-biography-3 .biography-item {
+  margin-bottom: 1.2rem;     /* 每个教育条目之间的间距 */
+  line-height: 1.6;          /* 段落行距 */
+}
+.block.resume-biography-3 .biography-item h3 {
+  margin-bottom: 0.35rem;    /* 学位标题与学校名之间的距离 */
+}
+.block.resume-biography-3 .biography-item p {
+  line-height: 1.6;
+}
