@@ -31,7 +31,7 @@ authors:
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
 #  caption: 'Image credit: [**Northwestern University**](https://www.mccormick.northwestern.edu/research/optimization-machine-learning-center/news-events/past-workshops.html)'
