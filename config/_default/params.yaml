@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: slate
+  color: zinc
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: 'University of Michigan - Industrial & Operations Engineering'
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-  #  twitter: ''
+    description: 'Qingyuan Xu Academic Website — PhD student in Operations Research at the University of Michigan, focusing on stochastic and robust optimization.'
+ #  twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© 2025 Qingyuan Xu | Feel free to connect.'
     license:
       enable: true
       allow_derivatives: false
@@ -55,6 +55,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
