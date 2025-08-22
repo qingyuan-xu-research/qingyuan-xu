@@ -33,9 +33,9 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Northwestern University**](https://www.mccormick.northwestern.edu/research/optimization-machine-learning-center/news-events/past-workshops.html)'
   focal_point: Right
-
+ 
 # links:
 #  - type: code
 #    url: https://github.com
