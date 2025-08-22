@@ -12,12 +12,11 @@ sections:
   - block: collection
     content:
       title: Publications
-      text:
+      text: ''
       filters:
         folders:
           - publication
     design:
-      view: article-grid
+      view: citation
       fill_image: false
-      columns: 3
 ---
