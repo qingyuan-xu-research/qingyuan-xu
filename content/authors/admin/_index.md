@@ -35,7 +35,9 @@ organizations:
     url: https://ioe.engin.umich.edu/
 
 # Social network links
+<!-- 
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+--> 
 profiles:
   - icon: at-symbol
     url: 'mailto:qyxu@umich.edu'
