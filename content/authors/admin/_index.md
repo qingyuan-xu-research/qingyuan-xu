@@ -61,15 +61,15 @@ profiles:
 
  
 interests:
-  - Stochastic/Robust Optimization
-  - Data-Driven Decision-Making
+  - **Stochastic/Robust Optimization**
+  - **Data-Driven Decision-Making**
 
 
 education:
-  - area: Ph.D. Student in IOE
+  - area: **Ph.D. Student in Optimization**
     institution: |
-      University of Michigan
-      Aug. 2024 – Present
+     ○  University of Michigan
+     ○  Aug. 2024 – Present
     date_start: 2024-09-01
     date_end: 
     
@@ -81,17 +81,17 @@ education:
 #      url: 'https://example.com'
 
 
-  - area: B.S. in Mathematics and Physics
+  - area: **B.S. in Mathematics and Physics**
     institution: |
-      Tsinghua University
-      Aug. 2020 – Jun. 2024
+     ○  Tsinghua University
+     ○  Aug. 2020 – Jun. 2024
     date_start: 2020-09-01
     date_end: 2024-06-01
 
-  - area: B.E. in Industrial Engineering
+  - area: **B.E. in Industrial Engineering**
     institution: |
-      Tsinghua University
-      Aug. 2020 – Jun. 2024
+     ○  Tsinghua University
+     ○  Aug. 2020 – Jun. 2024
     date_start: 2020-09-01
     date_end: 2024-06-01
 
