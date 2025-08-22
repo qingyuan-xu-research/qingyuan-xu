@@ -7,8 +7,3 @@
 }
 
 
-.description .text-sm::before {
-  content: "○ ";
-  font-size: 0.5em; /* 缩小符号 */
-  vertical-align: middle; /* 垂直居中 */
-}
