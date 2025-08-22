@@ -52,7 +52,7 @@ profiles:
 
  
   - icon: brands/linkedin
-    url: www.linkedin.com/in/qing-yuan-xu
+    url: https://www.linkedin.com/in/qing-yuan-xu
 
 #  - icon: academicons/google-scholar
 #    url: https://scholar.google.com/
@@ -60,7 +60,7 @@ profiles:
 #    url: https://orcid.org/
 
  
-research interests:
+interests:
   - Stochastic/Robust Optimization, 
   - Data-Driven Decision-Making under Imperfect Information
 
