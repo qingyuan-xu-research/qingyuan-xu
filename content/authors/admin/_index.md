@@ -9,12 +9,16 @@ name_pronunciation: Ching-Yoo-an SHYOO
 first_name: Qingyuan
 last_name: Xu
 
+<!-- 
 # Pronouns (optional)
-# pronouns: she/her
+pronouns: she/her
+ -->
 
+ <!-- 
 # Status emoji
-# status:
-#  icon: ☕️
+ status:
+  icon: ☕️
+ -->
 
 # Is this the primary user of the site?
 superuser: true
@@ -36,19 +40,24 @@ profiles:
   - icon: at-symbol
     url: 'mailto:qyxu@umich.edu'
     label: E-mail Me
+ <!-- 
 #  - icon: brands/x
 #    url: https://twitter.com/GetResearchDev
 #  - icon: brands/instagram
 #    url: https://www.instagram.com/
 #  - icon: brands/github
 #    url: https://github.com/gcushen
+ -->
+ 
   - icon: brands/linkedin
     url: www.linkedin.com/in/qing-yuan-xu
+ <!-- 
 #  - icon: academicons/google-scholar
 #    url: https://scholar.google.com/
 #  - icon: academicons/orcid
 #    url: https://orcid.org/
-
+ -->
+ 
 research interests:
   - Stochastic/Robust Optimization, 
   - Data-Driven Decision-Making under Imperfect Information
@@ -59,11 +68,13 @@ education:
     institution: University of Michigan, Ann Arbor
     date_start: 2024-08
     date_end: Present
+<!--   
 #    summary: |
 #      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
  #   button:
  #     text: 'Read Thesis'
 #      url: 'https://example.com'
+ -->
 
   - area: B.S. in Mathematics and Physics
     institution: Tsinghua University
@@ -77,7 +88,7 @@ education:
     date_end: 2024-06
  
       
- 
+<!-- 
 # work:
 #  - position: Director of Cloud Infrastructure
 #    company_name: GenCoin
@@ -175,6 +186,8 @@ education:
   #  summary: |
    #   Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 # ---
+--> 
+
 
 ## About Me
 
