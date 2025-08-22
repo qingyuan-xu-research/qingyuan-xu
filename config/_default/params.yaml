@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: zinc
+  color: teal
 
 # SEO
 marketing:
@@ -42,7 +42,7 @@ footer:
   copyright:
     notice: '© 2025 Qingyuan Xu | Feel free to connect.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
