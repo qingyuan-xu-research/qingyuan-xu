@@ -66,10 +66,8 @@ interests:
 
 
 education:
-  - area: Ph.D. Student in Operations Research  		
-    institution: |
-      University of Michigan  
-      Aug. 2024 – Present
+  - area: Ph.D. Student in IOE
+    institution: University of Michigan<br>Aug. 2024 – Present
     date_start: 2024-09-01
     date_end: 
     
@@ -82,16 +80,12 @@ education:
 
 
   - area: B.S. in Mathematics and Physics
-    institution: |
-      Tsinghua University  
-      Aug. 2020 – Jun. 2024
+    institution: Tsinghua University<br>Aug. 2020 – Jun. 2024
     date_start: 2020-09-01
     date_end: 2024-06-01
 
   - area: B.E. in Industrial Engineering
-    institution: |
-      Tsinghua University  
-      Aug. 2020 – Jun. 2024
+    institution: Tsinghua University<br>Aug. 2020 – Jun. 2024
     date_start: 2020-09-01
     date_end: 2024-06-01
 
