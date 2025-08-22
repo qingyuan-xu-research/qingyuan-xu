@@ -34,8 +34,8 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Northwestern University**](https://www.mccormick.northwestern.edu/research/optimization-machine-learning-center/news-events/past-workshops.html)'
-  focal_point: Right
+#  caption: 'Image credit: [**Northwestern University**](https://www.mccormick.northwestern.edu/research/optimization-machine-learning-center/news-events/past-workshops.html)'
+#  focal_point: Right
  
 # links:
 #  - type: code
