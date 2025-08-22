@@ -68,7 +68,7 @@ research interests:
 education:
   - area: Ph.D. Student in Industrial and Operations Engineering   		
     institution: University of Michigan, Ann Arbor
-    date_start: 2024-08
+    date_start: 2024-09-01
     date_end: 
     
 
@@ -81,14 +81,14 @@ education:
 
   - area: B.S. in Mathematics and Physics
     institution: Tsinghua University
-    date_start: 2020-09
-    date_end: 2024-06
+    date_start: 2020-09-01
+    date_end: 2024-06-01
 
 
   - area: B.E. in Industrial Engineering
     institution: Tsinghua University
-    date_start: 2020-09
-    date_end: 2024-06
+    date_start: 2020-09-01
+    date_end: 2024-06-01
  
       
 
