@@ -1,5 +1,5 @@
 ---
-title: Contextual Distributionally Robust Optimization with Incomplete Covariate Information
+title: Midwest Optimization Statistical Learning Conference 2025
 
 event: Midwest Optimization Statistical Learning Conference 2025
 event_url: https://www.ideal-institute.org/2025/04/18/midwest-optimization-statistical-learning-conference-2025/
