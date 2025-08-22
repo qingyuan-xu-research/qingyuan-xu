@@ -1,28 +1,28 @@
 ---
-title: Example Talk
+title: Contextual Distributionally Robust Optimization with Incomplete Covariate Information
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: Midwest Optimization Statistical Learning Conference 2025
+event_url: https://www.ideal-institute.org/2025/04/18/midwest-optimization-statistical-learning-conference-2025/
 
-location: Hugo Blox Builder HQ
+location: Northwestern University
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: Technological Institute
+  city: Evanston
+  region: IL
+  postcode: '60208'
   country: United States
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: Presented recent work on contextual DRO with incomplete covariate information.
+# abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2025-05-16T09:00:00Z'
+date_end: '2025-05-16T17:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2025-05-01T00:00:00Z'
 
 authors:
   - admin
@@ -36,13 +36,13 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-links:
-  - type: code
-    url: https://github.com
-  - type: slides
-    url: https://slideshare.net
-  - type: video
-    url: https://youtube.com
+# links:
+#  - type: code
+#    url: https://github.com
+#  - type: slides
+#    url: https://slideshare.net
+#  - type: video
+#    url: https://youtube.com
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
