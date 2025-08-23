@@ -199,6 +199,6 @@ education:
 
 ## About Me
 
-I am a second-year Ph.D. student in the Department of Industrial and Operations Engineering at the University of Michigan, where I am advised by Professor [Ruiwei Jiang](https://sites.google.com/site/ruiweijianguf/). Previously, I received a B.S. in Mathematics and Physics and a B.E. in Industrial Engineering from Tsinghua University in 2024.
+I am a second-year Ph.D. student in the [Department of Industrial and Operations Engineering](https://ioe.engin.umich.edu) at the University of Michigan, where I am advised by Professor [Ruiwei Jiang](https://sites.google.com/site/ruiweijianguf/). Previously, I received a B.S. in Mathematics and Physics and a B.E. in Industrial Engineering from Tsinghua University in 2024.
 
 My research interests include stochastic and robust optimization, integer programming, and data-driven decision-making. I aim to advance the theory and methods of optimization under imperfect information by leveraging structured uncertainty, thereby delivering reliable and responsible solutions for complex real-world systems.
