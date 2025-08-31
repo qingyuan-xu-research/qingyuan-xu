@@ -26,13 +26,15 @@ sections:
           <div class="org">University of Michigan</div>
         </div>
 
-        <div class="award-card">
+       <div class="award-card">
           <div class="top">
             <div class="title">Rising Star</div>
             <div class="year">2025</div>
           </div>
           <div class="org">
-            [ISyE–MSE–IOE Joint Rising Stars Workshop](https://sites.gatech.edu/risingstars-isye-mse-ioe/)
+            <a href="https://sites.gatech.edu/risingstars-isye-mse-ioe/" target="_blank" rel="noopener">
+              ISyE–MSE–IOE Joint Rising Stars Workshop
+            </a>
           </div>
           <div class="meta">invited</div>
         </div>
