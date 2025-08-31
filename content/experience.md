@@ -36,7 +36,7 @@ sections:
               ISyE–MSE–IOE Joint Rising Stars Workshop
             </a>
           </div>
-          <div class="meta">invited</div>
+        
         </div>
 
 
