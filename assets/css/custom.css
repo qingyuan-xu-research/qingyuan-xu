@@ -42,9 +42,10 @@
 }
 
 .award-card .year{
-  white-space:nowrap;
-  font-weight:600;
-  opacity:.85;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 0.95rem; /* 调整为与机构文字一致 */
+  opacity: 0.8;       /* 略微降低对比度 */
 }
 
 .award-card .org{
