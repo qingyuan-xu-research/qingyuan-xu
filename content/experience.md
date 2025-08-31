@@ -28,7 +28,7 @@ sections:
 
        <div class="award-card">
           <div class="top">
-            <div class="title">Rising Star</div>
+            <div class="title">Selected Participant</div>
             <div class="year">2025</div>
           </div>
           <div class="org">
@@ -51,7 +51,7 @@ sections:
         <div class="award-card">
           <div class="top">
             <div class="title">Academic Excellence Scholarship</div>
-            <div class="year">2021–2023</div>
+            <div class="year">2021–2024</div>
           </div>
           <div class="org">Tsinghua University</div>
         </div>
