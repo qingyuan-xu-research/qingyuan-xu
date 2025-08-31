@@ -11,7 +11,7 @@
   display:grid;
   grid-template-columns: 1fr; /* 单列布局 */
   gap: .8rem;                /* 卡片之间的间距 */
-  max-width: 900px;     
+  max-width: 1200px;     
   margin: 0 auto;            /* 保证居中 */
 }
 
