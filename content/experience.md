@@ -11,7 +11,18 @@ design:
 
 # Page sections
 sections:
-
+  - block: markdown
+    id: awards
+    content:
+      title: Awards
+      text: |
+        - **Rackham Travel Grant**, University of Michigan — **2025**  
+        - **Rising Star**, ISyE-MSE-IOE Joint Rising Stars Workshop — **2025**  
+        - **Graduate Fellowship**, University of Michigan — **2024**  
+        - **Academic Excellence Scholarship**, Tsinghua University — **2021,2022,2023**  
+        - **Technology Innovation Scholarship**, Tsinghua University — **2022**  
+    design:
+      columns: 1
 
 
 #  - block: resume-experience
