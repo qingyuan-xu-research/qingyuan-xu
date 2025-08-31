@@ -6,6 +6,13 @@
   color: #6b7280; 
 }
 
+/* 针对 Experience 页面增加宽度 */
+section#experience .container {
+  max-width: 1200px;  /* 可以设置为1200或1300 */
+}
+
+
+
 /* Awards cards — single column clean layout */
 .award-cards{
   display:grid;
