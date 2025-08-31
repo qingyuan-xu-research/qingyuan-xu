@@ -31,9 +31,12 @@ sections:
             <div class="title">Rising Star</div>
             <div class="year">2025</div>
           </div>
-          <div class="org">ISyE–MSE–IOE Joint Rising Stars Workshop</div>
+          <div class="org">
+            [ISyE–MSE–IOE Joint Rising Stars Workshop](https://sites.gatech.edu/risingstars-isye-mse-ioe/)
+          </div>
           <div class="meta">invited</div>
         </div>
+
 
         <div class="award-card">
           <div class="top">
