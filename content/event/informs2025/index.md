@@ -1,18 +1,18 @@
 ---
-title: Informs Annual  2025
+title: Informs Annual Meeting 2025
 
 event: INFORMS Annual Meeting 2025
 event_url: 
 
 location: Atlanta
 address:
-  street: 
+  street: Building B211
   city: Atlanta
   region: Georgia
   postcode: 
   country: United States
 
-summary: Presented recent work on contextual DRO with incomplete covariate information.
+summary: SE37 Efficiency and Robustness in Data-Driven Optimization
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
