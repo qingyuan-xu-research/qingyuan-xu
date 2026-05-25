@@ -47,18 +47,18 @@ hugoblox:
 
 # Custom links
 links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: 
-  - type: dataset
-    url: 
-  - type: slides
-    url: 
-  - type: source
-    url: 
-  - type: video
-    url: 
+#  - type: pdf
+#    url: ""
+#  - type: code
+#    url: 
+#  - type: dataset
+#    url: 
+#  - type: slides
+#    url: 
+#  - type: source
+#    url: 
+#  - type: video
+#    url: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
