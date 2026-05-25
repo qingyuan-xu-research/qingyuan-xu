@@ -44,17 +44,17 @@
 
     {{ end }}
 
-    {{/* Publication Summary */}}
-    {{ with $item.Params.summary }}
-    <div class="pub-summary">
-      {{ . | markdownify }}
-    </div>
-    {{ end }}
-
     {{/* Attachment Links: PDF, Code, Slides, etc. */}}
     {{ if $has_attachments }}
     <div class="flex flex-wrap space-x-3 pub-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    </div>
+    {{ end }}
+
+    {{/* Publication Summary: shown at the very end */}}
+    {{ with $item.Params.summary }}
+    <div class="pub-summary">
+      {{ . | markdownify }}
     </div>
     {{ end }}
 
