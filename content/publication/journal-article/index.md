@@ -1,5 +1,6 @@
 ---
 title: "An example journal article"
+draft: true
 authors:
 - admin
 - Author2
