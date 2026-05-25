@@ -31,7 +31,7 @@ publication_short: 'In <i>ICML 2026 <span style="color:#1d4ed8;font-weight:600;"
 abstract: Modern decision-making increasingly relies on contextual features (covariates) to improve optimization under uncertainty. In practice, however, such covariates are often only partially observed due to, e.g., data source heterogeneity or costly data collection. Nonetheless, most existing methods assume fully observed historical data and can become unreliable when this assumption is violated. We address this gap by proposing a distributionally robust optimization approach that exploits incomplete covariates to produce robust decisions without imputing a complete dataset. Our method builds ambiguity sets from the observed partial data and incorporates the general structure of the missingness mechanism, ensuring candidate distributions remain consistent with what is observed. Across settings with discrete or continuous covariates and outcomes, we derive tractable reformulations and establish finite-sample out-of-sample performance guarantees. Empirical results across a range of contextual decision-making tasks demonstrate that the proposed integrated approach consistently outperforms state-of-the-art baselines, including various impute-then-optimize pipelines, in both out-of-sample performance and reliability.
 
 # Summary. An optional shortened abstract.
-summary: Selected for **Oral Presentation** at ICML 2026 (< 0.7%). This paper develops a principled and tractable framework for contextual decision-making with missing covariates that delivers stable and reliable out-of-sample performance. 
+summary: This paper develops a principled and tractable framework for contextual decision-making with missing covariates that delivers stable and reliable out-of-sample performance. 
 
 tags:
   - Contextual Optimization
@@ -62,10 +62,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#  focal_point: ''
+#  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -83,12 +83,12 @@ projects:
 slides: ""
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+# {{% callout note %}}
+# Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+# {{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+# {{% callout note %}}
+# Create your slides in Markdown - click the _Slides_ button to check out the example.
+# {{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+# Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images]# (https://docs.hugoblox.com/content/writing-markdown-latex/).
