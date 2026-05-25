@@ -21,7 +21,7 @@ publishDate: '2026-05-24T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+# publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: 'In <i>International Conference on Machine Learning (ICML) 2026 <span style="color:#1d4ed8;font-weight:600;">(Oral Presentation, &lt;0.7%)</span></i>'
@@ -38,7 +38,7 @@ tags:
   - Missing Data
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Standard identifiers for auto-linking
 hugoblox:
