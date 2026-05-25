@@ -3,20 +3,20 @@
 {{ $year := (time $year_value).Format "2006" }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="pub-list-item view-citation pub-clean-item">
+<div class="pub-list-item view-citation pub-clean-item" style="margin-bottom: 1.8rem; max-width: 1050px;">
 
   {{/* Title: no link */}}
-  <div class="pub-clean-title">
+  <div class="pub-clean-title" style="font-weight: 700; font-size: 1.15rem; line-height: 1.25; color: inherit; margin-bottom: 0.1rem;">
     {{ $item.Title }}
   </div>
 
   {{/* Authors */}}
-  <div class="pub-clean-authors">
+  <div class="pub-clean-authors" style="font-size: 1rem; line-height: 1.35; margin-bottom: 0.1rem;">
     {{ partial "page_metadata_authors" $item }}
   </div>
 
   {{/* Publication / Venue */}}
-  <div class="pub-clean-venue">
+  <div class="pub-clean-venue" style="font-size: 1rem; line-height: 1.35; margin-bottom: 0.1rem;">
     {{ if $item.Params.publication_short }}
       {{- $item.Params.publication_short | markdownify -}}.
     {{ else if $item.Params.publication }}
@@ -28,16 +28,17 @@
 
   {{/* Attachment Links: PDF, Code, Slides, Cite, etc. */}}
   {{ if $has_attachments }}
-  <div class="pub-clean-links">
+  <div class="pub-clean-links" style="font-size: 1rem; line-height: 1.35; margin-top: 0.1rem; margin-bottom: 0.8rem;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}
 
   {{/* Summary */}}
   {{ with $item.Params.summary }}
-  <div class="pub-clean-summary">
+  <div class="pub-clean-summary" style="font-size: 0.9rem; line-height: 1.55; color: #374151; max-width: 1000px;">
     {{ . | markdownify }}
   </div>
   {{ end }}
 
 </div>
+
