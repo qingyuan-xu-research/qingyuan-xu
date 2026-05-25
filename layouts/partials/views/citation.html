@@ -6,25 +6,36 @@
 <div class="pub-list-item view-citation pub-clean-item" style="margin-bottom: 1.8rem; max-width: 1050px;">
 
   {{/* Title: no link */}}
-  <div class="pub-clean-title" style="font-weight: 700; font-size: 1.15rem; line-height: 1.25; color: inherit; margin-bottom: 0.1rem;">
+  <div class="pub-clean-title" style="font-weight: 700; font-size: 1rem; line-height: 1.25; color: inherit; margin-bottom: 0.1rem;">
     {{ $item.Title }}
   </div>
 
   {{/* Authors */}}
-  <div class="pub-clean-authors" style="font-size: 1rem; line-height: 1.35; margin-bottom: 0.1rem;">
+  <div class="pub-clean-authors" style="font-size: 1rem; line-height: 1.25; margin-bottom: 0.1rem;">
     {{ partial "page_metadata_authors" $item }}
   </div>
 
-  {{/* Publication / Venue */}}
-  <div class="pub-clean-venue" style="font-size: 1rem; line-height: 1.35; margin-bottom: 0.1rem;">
-    {{ if $item.Params.publication_short }}
-      {{- $item.Params.publication_short | markdownify -}}.
-    {{ else if $item.Params.publication }}
-      {{- $item.Params.publication | markdownify -}}.
-    {{ else }}
-      {{- $year -}}.
+  {{/* Publication / Venue: short name first, then full name */}}
+<div class="pub-clean-venue" style="font-size: 1rem; line-height: 1.25; margin-bottom: 0.1rem;">
+  {{ $pub_short := $item.Params.publication_short }}
+  {{ $pub_full := $item.Params.publication }}
+
+  {{ if or $pub_short $pub_full }}
+    {{ with $pub_short }}
+      <span class="pub-venue-short">{{ . | markdownify }}</span>
     {{ end }}
-  </div>
+
+    {{ if and $pub_short $pub_full }}
+      <span class="pub-venue-separator">. </span>
+    {{ end }}
+
+    {{ with $pub_full }}
+      <span class="pub-venue-full">{{ . | markdownify }}</span>
+    {{ end }}.
+  {{ else }}
+    {{- $year -}}.
+  {{ end }}
+</div>
 
   {{/* Attachment Links: PDF, Code, Slides, Cite, etc. */}}
   {{ if $has_attachments }}
