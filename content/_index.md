@@ -53,7 +53,7 @@ sections:
 #  - block: collection
  #   id: papers
  #   content:
- #     title: Featured Publications
+ #     title: Publications
  #     filters:
  #       folders:
  #         - publication
@@ -61,16 +61,8 @@ sections:
  #   design:
  #     view: article-grid
  #     columns: 2
-#  - block: collection
-#    content:
-#      title: Recent Publications
-#      text: ""
-#      filters:
-#        folders:
-#          - publication
-#        exclude_featured: false
-#    design:
-#      view: citation
+ 
+
 
   - block: collection
     id: talks
@@ -85,6 +77,17 @@ sections:
     design:
       view: article-grid
       columns: 2
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
 
   
 # - block: markdown
