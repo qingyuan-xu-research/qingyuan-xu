@@ -1,25 +1,60 @@
-<div class="pub-list-item view-citation mb-4">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-  {{/* Standard HugoBlox citation logic */}}
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" . }}
-  </span>
-  ({{.Date.Format "2006"}}).
-  <a href="{{.RelPermalink}}">{{.Title}}</a>.
-  {{ if .Params.publication_short }}
-    {{ .Params.publication_short | markdownify }}.
-  {{ else if .Params.publication }}
-    {{ .Params.publication | markdownify }}.
-  {{ end }}
-  
-  {{/* Your Custom Summary Add-on */}}
-  {{ if .Params.summary }}
-  <div class="article-style mt-1 text-sm text-gray-600">
-    {{ .Params.summary | markdownify }}
-  </div>
-  {{ end }}
+{{/* 修复版：layouts/partials/views/citation.html */}}
+<div class="pub-list-item view-citation mb-10 group">
+  <div class="flex items-start">
+    
+    {{/* 1. 图标层：增加 aria-hidden 增强无障碍 */}}
+    <div class="mr-4 mt-1 hidden sm:block">
+      <i class="far fa-file-alt text-2xl text-primary-500/50 group-hover:text-primary-500 transition-colors" aria-hidden="true"></i>
+    </div>
 
-  <div class="btn-links mt-2">
-    {{ partial "page_links" (dict "page" . "item" .) }}
+    <div class="flex-1">
+      {{/* 2. 标题层：确保链接路径准确 */}}
+      <h3 class="article-title mb-1 text-xl font-bold leading-tight">
+        <a href="{{ .RelPermalink }}" class="hover:text-primary-600 transition-colors">{{ .Title }}</a>
+      </h3>
+
+      {{/* 3. 元数据层：使用 $ 进行根作用域引用确保 partial 调用成功 */}}
+      <div class="article-metadata text-sm text-gray-500 mb-2">
+        <span class="font-medium text-gray-700">
+          {{/* 这里的 . 特别重要，它代表当前的页面上下文 */}}
+          {{ partial "page_metadata_authors" . }}
+        </span>
+        <span class="mx-1">•</span>
+        <span>{{ .Date.Format "2006" }}</span>
+        
+        {{/* 修正：合并 publication 逻辑，避免重复点号错误 */}}
+        {{ $pub := "" }}
+        {{ if .Params.publication_short }}
+          {{ $pub = .Params.publication_short }}
+        {{ else if .Params.publication }}
+          {{ $pub = .Params.publication }}
+        {{ end }}
+        
+        {{ if $pub }}
+          <span class="mx-1">•</span>
+          <span class="italic font-serif">{{ $pub | markdownify }}</span>
+        {{ end }}
+      </div>
+
+      {{/* 4. 摘要层：修复：使用 .Summary 作为后备，确保总有内容显示 */}}
+      {{ $summary := "" }}
+      {{ if .Params.summary }}
+        {{ $summary = .Params.summary }}
+      {{ else if .Summary }}
+        {{ $summary = .Summary }}
+      {{ end }}
+
+      {{ if $summary }}
+      <div class="article-style mt-3 border-l-2 border-gray-100 pl-4 text-base italic text-gray-600 leading-relaxed">
+        {{ $summary | markdownify }}
+      </div>
+      {{ end }}
+
+      {{/* 5. 链接层：修正 dict 传参确保按钮正常显示 */}}
+      <div class="btn-links mt-4 flex flex-wrap gap-2">
+        {{/* HugoBlox 标准按钮 partial 需要严格的 dict 传参 */}}
+        {{ partial "page_links" (dict "page" . "item" .) }}
+      </div>
+    </div>
   </div>
 </div>
