@@ -3,60 +3,41 @@
 {{ $year := (time $year_value).Format "2006" }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="pub-list-item view-citation pub-citation-item">
-  <div class="pub-citation-icon">
-    <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+<div class="pub-list-item view-citation pub-clean-item">
+
+  {{/* Title: no link */}}
+  <div class="pub-clean-title">
+    {{ $item.Title }}
   </div>
 
-  <div class="pub-citation-content">
+  {{/* Authors */}}
+  <div class="pub-clean-authors">
+    {{ partial "page_metadata_authors" $item }}
+  </div>
 
-    {{/* APA Style */}}
-    {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
-
-    <div class="pub-citation-text">
-      <span class="article-metadata li-cite-author">
-        {{ partial "page_metadata_authors" $item }}
-      </span>
-      ({{- $year -}}).
-      <span class="pub-title">{{ $item.Title }}</span>.
-      {{ if $item.Params.publication_short }}
-        {{- $item.Params.publication_short | markdownify -}}.
-      {{ else if $item.Params.publication }}
-        {{- $item.Params.publication | markdownify -}}.
-      {{ end }}
-    </div>
-
-    {{/* MLA Style */}}
+  {{/* Publication / Venue */}}
+  <div class="pub-clean-venue">
+    {{ if $item.Params.publication_short }}
+      {{- $item.Params.publication_short | markdownify -}}.
+    {{ else if $item.Params.publication }}
+      {{- $item.Params.publication | markdownify -}}.
     {{ else }}
-
-    <div class="pub-citation-text">
-      <span class="article-metadata li-cite-author">
-        {{ partial "page_metadata_authors" $item }}.
-      </span>
-      <span class="pub-title">{{ $item.Title }}</span>.
-      {{ if $item.Params.publication_short }}
-        {{- $item.Params.publication_short | markdownify -}},
-      {{ else if $item.Params.publication }}
-        {{- $item.Params.publication | markdownify -}},
-      {{ end }}
       {{- $year -}}.
-    </div>
-
     {{ end }}
-
-    {{/* Attachment Links: PDF, Code, Slides, etc. */}}
-    {{ if $has_attachments }}
-    <div class="flex flex-wrap space-x-3 pub-links">
-      {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    </div>
-    {{ end }}
-
-    {{/* Publication Summary: shown at the very end */}}
-    {{ with $item.Params.summary }}
-    <div class="pub-summary">
-      {{ . | markdownify }}
-    </div>
-    {{ end }}
-
   </div>
+
+  {{/* Attachment Links: PDF, Code, Slides, Cite, etc. */}}
+  {{ if $has_attachments }}
+  <div class="pub-clean-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{/* Summary */}}
+  {{ with $item.Params.summary }}
+  <div class="pub-clean-summary">
+    {{ . | markdownify }}
+  </div>
+  {{ end }}
+
 </div>
