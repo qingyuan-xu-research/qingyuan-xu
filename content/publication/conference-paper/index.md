@@ -1,22 +1,22 @@
 ---
-title: 'An example conference paper'
+title: 'Robust Contextual Optimization with Missing Covariates'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Author 2
+  - Ruiwei Jiang
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+#  - 'Equal contribution'
+#  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2026-05-24T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2026-05-24T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -24,16 +24,18 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: 'In <i>International Conference on Machine Learning (ICML) 2026 <span style="color:#1d4ed8;font-weight:600;">(Oral Presentation, &lt;0.7%)</span></i>'
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+publication_short: 'In <i>ICML 2026 <span style="color:#1d4ed8;font-weight:600;">(Oral Presentation, &lt;0.7%)</span></i>'
+
+abstract: Modern decision-making increasingly relies on contextual features (covariates) to improve optimization under uncertainty. In practice, however, such covariates are often only partially observed due to, e.g., data source heterogeneity or costly data collection. Nonetheless, most existing methods assume fully observed historical data and can become unreliable when this assumption is violated. We address this gap by proposing a distributionally robust optimization approach that exploits incomplete covariates to produce robust decisions without imputing a complete dataset. Our method builds ambiguity sets from the observed partial data and incorporates the general structure of the missingness mechanism, ensuring candidate distributions remain consistent with what is observed. Across settings with discrete or continuous covariates and outcomes, we derive tractable reformulations and establish finite-sample out-of-sample performance guarantees. Empirical results across a range of contextual decision-making tasks demonstrate that the proposed integrated approach consistently outperforms state-of-the-art baselines, including various impute-then-optimize pipelines, in both out-of-sample performance and reliability.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Selected for **Oral Presentation** at ICML 2026 (< 0.7%). This paper develops a principled and tractable framework for contextual decision-making with missing covariates that delivers stable and reliable out-of-sample performance. 
 
 tags:
-  - Large Language Models
+  - Contextual Optimization
+  - Missing Data
 
 # Display this page in the Featured widget?
 featured: true
@@ -41,22 +43,22 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
+#    doi: 10.5555/123456
 
 # Custom links
 links:
   - type: pdf
     url: ""
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: 
   - type: dataset
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: 
   - type: slides
-    url: https://www.slideshare.net/
+    url: 
   - type: source
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: 
   - type: video
-    url: https://youtube.com
+    url: 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -71,7 +73,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+#  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
