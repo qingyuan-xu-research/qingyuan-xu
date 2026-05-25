@@ -27,7 +27,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Ph.D. Student in Operations Research
+role: Ph.D. Candidate in Operations Research
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -60,18 +60,18 @@ profiles:
 #    url: https://orcid.org/
 
  
-interests:
-  - Stochastic/Robust Optimization
-  - Data-Driven Decision-Making
+# interests:
+#  - Stochastic/Robust Optimization
+#  - Data-Driven Decision-Making
 
 
-education:
-  - area: Ph.D. Student in Optimization
-    institution: |
-     -  University of Michigan
-     -  Aug. 2024 – Present
-    date_start: 2024-09-01
-    date_end: 
+# education:
+#  - area: Ph.D. Student in Optimization
+#    institution: |
+#     -  University of Michigan
+#     -  Aug. 2024 – Present
+#    date_start: 2024-09-01
+#    date_end: 
     
 
 #    summary: |
