@@ -81,19 +81,19 @@ profiles:
 #      url: 'https://example.com'
 
 
-  - area: B.S. in Mathematics and Physics
-    institution: |
-     -  Tsinghua University
-     -  Aug. 2020 – Jun. 2024
-    date_start: 2020-09-01
-    date_end: 2024-06-01
+#  - area: B.S. in Mathematics and Physics
+#    institution: |
+#     -  Tsinghua University
+#     -  Aug. 2020 – Jun. 2024
+#    date_start: 2020-09-01
+#    date_end: 2024-06-01
 
-  - area: B.E. in Industrial Engineering
-    institution: |
-     -  Tsinghua University
-     -  Aug. 2020 – Jun. 2024
-    date_start: 2020-09-01
-    date_end: 2024-06-01
+#  - area: B.E. in Industrial Engineering
+#    institution: |
+#     -  Tsinghua University
+#     -  Aug. 2020 – Jun. 2024
+#    date_start: 2020-09-01
+#    date_end: 2024-06-01
 
  
       
