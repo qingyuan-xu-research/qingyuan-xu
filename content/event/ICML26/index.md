@@ -11,7 +11,7 @@ address:
   postcode: 
   country: South Korea
 
-summary: Oral 5E Theory: Optimization, Generalization, Privacy
+summary: Oral 5E Theory-- Optimization, Generalization, Privacy
 # abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
