@@ -1,1 +1,74 @@
+---
+title: International Conference on Machine Learning 2026
 
+event: International Conference on Machine Learning 2026
+event_url: https://icml.cc/virtual/2026/session/68667
+
+location: Seoul, South Korea
+address:
+  city: Seoul
+  region: 
+  postcode: 
+  country: South Korea
+
+summary: Oral 5E Theory: Optimization, Generalization, Privacy
+# abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: '2026-07-09T10:00:00Z'
+date_end: '2026-07-09T11:00:00Z'
+all_day: false
+
+# Schedule page publish date (NOT talk date).
+publishDate: '2025-07-09T00:00:00Z'
+
+authors:
+  - admin
+
+tags: []
+
+# Is this a featured talk? (true/false)
+featured: false
+
+image:
+  caption: 
+  focal_point: Right
+ 
+# links:
+#  - type: code
+#    url: https://github.com
+#  - type: slides
+#    url: https://slideshare.net
+#  - type: video
+#    url: https://youtube.com
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects:
+  - example
+---
+
+<!--
+{{% callout note %}}
+Click on the **Slides** button above to view the built-in slides feature.
+{{% /callout %}}
+
+Slides can be added in a few ways:
+
+- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using the `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to this page bundle and link it using `links: [{ type: slides, url: path/to/file } ]` in front matter
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+
+Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
+--> 
