@@ -2,7 +2,7 @@
 title: International Conference on Machine Learning 2026
 
 event: International Conference on Machine Learning 2026
-event_url: https://icml.cc/virtual/2026/session/68667
+event_url: https://icml.cc/virtual/2026/oral/71158
 
 location: Seoul, South Korea
 address:
