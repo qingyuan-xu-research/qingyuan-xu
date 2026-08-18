@@ -16,7 +16,7 @@ author_notes:
 date: '2026-05-24T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2026-05-24T00:00:00Z'
+publishDate: '2026-07-24T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -26,7 +26,7 @@ publishDate: '2026-05-24T00:00:00Z'
 # Publication name and optional abbreviated publication name.
 # publication: '<i></i>'
 
-publication_short: 'Preliminary version appeared at <i>International Conference on Machine Learning (ICML)</i> <span class="oral-highlight">(<strong>Oral Presentation, &lt;0.7% </strong>)</span> '
+publication_short: 'Preliminary version appeared at <i>International Conference on Machine Learning (ICML)</i> <span class="oral-highlight">(<strong>Spotlight & Oral Presentation, &lt; 0.7% </strong>)</span> '
 
 
 abstract: Modern decision-making increasingly relies on contextual features (covariates) to improve optimization under uncertainty. In practice, however, such covariates are often only partially observed due to, e.g., data source heterogeneity or costly data collection. Nonetheless, most existing methods assume fully observed historical data and can become unreliable when this assumption is violated. We address this gap by proposing a distributionally robust optimization approach that exploits incomplete covariates to produce robust decisions without imputing a complete dataset. Our method builds ambiguity sets from the observed partial data and incorporates the general structure of the missingness mechanism, ensuring candidate distributions remain consistent with what is observed. Across settings with discrete or continuous covariates and outcomes, we derive tractable reformulations and establish finite-sample out-of-sample performance guarantees. Empirical results across a range of contextual decision-making tasks demonstrate that the proposed integrated approach consistently outperforms state-of-the-art baselines, including various impute-then-optimize pipelines, in both out-of-sample performance and reliability.
@@ -48,18 +48,18 @@ hugoblox:
 
 # Custom links
 links:
-#  - type: pdf
-#    url: ""
-#  - type: code
-#    url: 
+  - type: pdf
+    url: "https://openreview.net/pdf?id=37KrsS7g7c"
+  - type: code
+    url: "https://github.com/xuqy2002/Robust-Contextual-Optimization-with-Missing-Covariates"
 #  - type: dataset
 #    url: 
 #  - type: slides
 #    url: 
 #  - type: source
 #    url: 
-#  - type: video
-#    url: 
+  - type: video
+    url: "https://icml.cc/virtual/2026/oral/71158"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
