@@ -48,8 +48,8 @@ hugoblox:
 
 # Custom links
 links:
-  - type: pdf
-    url: "https://openreview.net/pdf?id=37KrsS7g7c"
+#  - type: pdf
+#    url: "https://openreview.net/pdf?id=37KrsS7g7c"
   - type: code
     url: "https://github.com/xuqy2002/Robust-Contextual-Optimization-with-Missing-Covariates"
 #  - type: dataset
