@@ -199,6 +199,12 @@ profiles:
 
 ## About Me
 
-I am a second-year Ph.D. student in the [Department of Industrial and Operations Engineering](https://ioe.engin.umich.edu) at the University of Michigan, where I am advised by Professor [Ruiwei Jiang](https://sites.google.com/site/ruiweijianguf/). Previously, I received a B.S. in Mathematics and Physics and a B.E. in Industrial Engineering from Tsinghua University in 2024.
+I am a second-year Ph.D. student in the [Department of Industrial and Operations Engineering](https://ioe.engin.umich.edu) at the University of Michigan, where I am fortunate to be advised by Professor [Ruiwei Jiang](https://sites.google.com/site/ruiweijianguf/). Previously, I received a B.S. in Mathematics and Physics and a B.E. in Industrial Engineering from Tsinghua University in 2024.
 
-My research interests include stochastic and robust optimization, integer programming, and data-driven decision-making. I aim to advance the theory and methods of optimization under imperfect information by leveraging structured uncertainty, thereby delivering reliable and responsible solutions for complex real-world systems.
+I am interested in advancing the theory and methodology of stochastic and robust optimization, integer programming, and data-driven decision-making. My current research focuses on two directions:
+
+- **Reliable Decision-Making**. Study decision-making under imperfect information, including structured unobservability and missing data, nonstationary data, and AI-generated data.
+
+- **Efficient Decision-Making**. Develop scalable methods for solving large-scale stochastic and robust optimization problems.
+
+I often think about how human researchers can contribute to societal well-being, including questions around AI safety, fairness, sustainability, and the evolving boundaries between human and artificial agency, values, and responsibility. Please feel free to reach out if you would like to chat!
