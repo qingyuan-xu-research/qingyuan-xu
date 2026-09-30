@@ -1,5 +1,5 @@
 ---
-title: "An example preprint / working paper"
+title: "Soft Separation for Adaptive Robust Optimization"
 draft: true
 authors:
 - admin
