@@ -14,8 +14,8 @@ publishDate: "2026-09-28T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv preprint arXiv:2609.36275"
-publication_short: "arXiv"
+# publication: "arXiv preprint arXiv:2609.36275"
+publication_short: "preprint arXiv:2609.36275"
 
 abstract: We propose an algorithmic framework for solving adaptive robust optimization with provable guarantees on both tractability and solution accuracy. The framework introduces soft separation, a probabilistic mechanism for identifying worst-case uncertainty realizations via a time-inhomogeneous Markov chain. Rather than solving an exact separation problem in each iteration, which is intractable in general, the chain carries adversarial information across iterations, co-evolves with the optimization iterates, and recovers exact separation at terminal iterates with high probability. For continuous first-stage (here-and-now) decisions, we design a first-order method that uses soft separation to produce adaptive gradient estimates. Notably, we prove polynomial-time convergence in expectation to the global optimum. For mixed-integer here-and-now decisions, we embed soft separation within a branch-and-cut framework to generate valid cuts for the robust objective and obtain a high-probability certificate of global optimality. Numerical experiments demonstrate that the proposed methods scale favorably with problem dimension and scenario size relative to state-of-the-art approaches.
 
