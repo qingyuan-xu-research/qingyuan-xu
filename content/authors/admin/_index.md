@@ -201,10 +201,10 @@ profiles:
 
 I am a second-year Ph.D. student in the [Department of Industrial and Operations Engineering](https://ioe.engin.umich.edu) at the University of Michigan, where I am fortunate to be advised by Professor [Ruiwei Jiang](https://sites.google.com/site/ruiweijianguf/). Previously, I received a B.S. in Mathematics and Physics and a B.E. in Industrial Engineering from Tsinghua University in 2024.
 
-My research focuses on advancing the theory and methodology of decision-making under uncertainty:
+My current research focuses on decision-making under uncertainty for efficient, reliable, and responsible solutions:
 
-- **Reliable Decision-Making**. Study whether and how reliable data-driven decisions can be made under imperfect information, such as structured unobservability and AI-generated data.
+- **Scalable** methods for contextual optimization, stochastic optimization, and robust optimization.
 
-- **Efficient Decision-Making**. Develop scalable methods for large-scale stochastic and robust optimization.
-
-I aim to develop responsible solutions to challenges in AI safety, fairness, and sustainability. Please feel free to reach out if you would like to chat!
+- **Trustworthy** decision-making with incomplete, biased, or AI-generated data.
+  
+Please feel free to reach out if you would like to chat!
