@@ -38,7 +38,7 @@ links:
   provider: arxiv
   id: 2609.36275
 - type: code
-  url: https://github.com/HugoBlox/hugo-blox-builder](https://github.com/xuqy2002/SoftSeparationARO
+  url: https://github.com/xuqy2002/SoftSeparationARO
 # - type: slides
 #  url: https://www.slideshare.net/
 # - type: dataset
