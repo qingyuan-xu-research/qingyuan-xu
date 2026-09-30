@@ -1,6 +1,5 @@
 ---
 title: "Soft Separation for Adaptive Robust Optimization"
-draft: false
 authors:
 - admin
 - Ruiwei Jiang
