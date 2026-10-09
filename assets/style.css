@@ -60,17 +60,17 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); 
 .hero-research { margin: 29px 0 21px 23px; }
 .hero-about .hero-research h2 { width: max-content; margin: 0 0 13px -23px; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: 1rem; font-weight: 600; letter-spacing: .08em; line-height: 1.4; text-transform: uppercase; }
 .hero-about .hero-research p { max-width: 68ch; margin: 0; font-family: var(--serif); font-size: var(--type-body); line-height: 1.68; text-wrap: balance; }
-.about-interests { display: grid; gap: 9px; margin: 12px 0 0; padding-left: 24px; list-style: disc outside; color: #242424; font-family: var(--sans); font-size: var(--type-body); line-height: 1.68; }
+.about-interests { display: grid; gap: 9px; margin: 12px 0 0; padding-left: 24px; list-style: disc outside; color: var(--ink); font-family: var(--serif); font-size: var(--type-body); line-height: 1.68; }
 .about-interests li { padding-left: 3px; }
 .about-interests li::marker { color: currentColor; font-size: .8em; }
-.about-interests strong { font-weight: 550; }
+.about-interests strong { font-weight: 600; }
 .hero-contact { margin: 0 0 0 23px; color: var(--ink); font-family: var(--serif); font-size: var(--type-body); line-height: 1.68; }
 .hero-contact summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; color: var(--ink); list-style: none; cursor: pointer; }
 .hero-contact summary::-webkit-details-marker { display: none; }
 .hero-contact summary::after { content: ""; flex: 0 0 auto; width: 9px; height: 9px; margin-right: 3px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-3px) rotate(45deg); transition: transform .18s ease; }
 .hero-contact[open] summary::after { transform: translateY(2px) rotate(225deg); }
 .hero-contact summary:hover span { text-decoration: underline; text-decoration-color: #9d9d9d; text-underline-offset: .2em; }
-.hero-contact-details { display: grid; gap: 8px; margin-top: 14px; padding-left: 18px; border-left: 1px solid #c9d1d4; font-family: var(--sans); font-size: var(--type-meta); line-height: 1.55; }
+.hero-contact-details { display: grid; gap: 8px; margin-top: 14px; padding-left: 18px; border-left: 1px solid #c9d1d4; font-family: var(--serif); font-size: var(--type-meta); line-height: 1.55; }
 .email-actions { display: flex; flex-wrap: wrap; gap: 5px 22px; }
 .email-actions button { padding: 0; border: 0; background: transparent; color: var(--ink); font: inherit; text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
 .email-actions button:hover { color: var(--accent); }
@@ -132,6 +132,7 @@ h1 { margin: 0; font-size: var(--type-name); line-height: 1.2; }
 .paper-authors strong { font-weight: 600; }
 .paper-venue { color: var(--ink); font-family: var(--sans); font-style: italic; font-weight: 600; }
 .paper-venue-feature { display: flex; flex-wrap: nowrap; gap: 10px; white-space: nowrap; }
+.highlight-group { display: inline-flex; align-items: baseline; gap: 6px; white-space: nowrap; }
 .highlight, .highlight-stat { color: var(--spotlight); font-family: inherit; font-style: inherit; font-weight: 600; }
 .paper-actions { display: flex; flex-wrap: wrap; align-items: flex-start; column-gap: 18px; row-gap: 2px; margin-top: 11px; }
 .paper-actions > a, .paper-actions > button { display: inline-flex; align-items: center; min-height: 30px; padding: 4px 0; border: 0; border-radius: 0; background: transparent; color: var(--ink); font: inherit; font-size: .9375rem; font-weight: 500; line-height: 1.3; text-decoration: underline; text-decoration-color: #9d9d9d; text-underline-offset: .22em; cursor: pointer; transition: color .18s ease, text-decoration-color .18s ease; }
@@ -212,6 +213,7 @@ h1 { margin: 0; font-size: var(--type-name); line-height: 1.2; }
   .page-shell:not(.home-shell) .section-first { padding-top: 43px; }
   .home-shell #papers { padding-top: 43px; }
   .paper { gap: 20px; }
+  .paper-venue-feature { flex-wrap: wrap; column-gap: 8px; row-gap: 0; white-space: normal; }
   .home-hero { grid-template-columns: 1fr; gap: 43px; padding: 47px 0 51px; }
   .hero-identity .role { white-space: normal; }
   .hero-about { padding-top: 35px; border-top: 1px solid var(--line); }
