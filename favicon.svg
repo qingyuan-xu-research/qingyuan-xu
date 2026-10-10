@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Qingyuan Xu — academic cap</title>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#1e5367"/>
+  <path d="M9 24.5 32 14l23 10.5L32 35 9 24.5Z" fill="#fdfdfc"/>
+  <path d="M19 32v10c0 5 6 8 13 8s13-3 13-8V32l-13 6-13-6Z" fill="#fdfdfc"/>
+  <path d="M54 25v16" fill="none" stroke="#fdfdfc" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="54" cy="44" r="3" fill="#fdfdfc"/>
+</svg>
