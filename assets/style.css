@@ -185,6 +185,7 @@ h1 { margin: 0; font-size: var(--type-name); line-height: 1.2; }
 .detail-fact { display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 20px; }
 .detail-fact dt { font-size: var(--type-meta); line-height: 1.5; }
 .detail-fact dd { margin: 0; font-family: var(--serif); font-size: var(--type-body); line-height: 1.5; }
+.external-link-arrow { display: inline-block; font-family: var(--sans); font-size: var(--type-meta); font-style: normal; font-weight: 400; line-height: 1; text-decoration: none; }
 .detail-next { display: flex; justify-content: space-between; gap: 20px; padding: 22px 0 45px; border-top: 1px solid var(--line); font-size: var(--type-meta); }
 .detail-next a { text-decoration: none; }
 .detail-next a:hover { text-decoration: underline; }
