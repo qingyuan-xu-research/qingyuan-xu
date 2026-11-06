@@ -131,6 +131,8 @@ h1 { margin: 0; font-size: var(--type-name); line-height: 1.2; }
 .paper-authors { font-family: var(--serif); font-style: normal; }
 .paper-authors strong { font-weight: 600; }
 .paper-venue { color: var(--ink); font-family: var(--sans); font-style: italic; font-weight: 600; }
+.venue-intro { font-style: normal; font-weight: 400; }
+.venue-name { font-family: var(--serif); font-style: italic; font-weight: 600; }
 .paper-venue-feature { display: flex; flex-wrap: nowrap; gap: 10px; white-space: nowrap; }
 .highlight-group { display: inline-flex; align-items: baseline; gap: 6px; white-space: nowrap; }
 .highlight, .highlight-stat { color: var(--spotlight); font-family: inherit; font-style: inherit; font-weight: 600; }
